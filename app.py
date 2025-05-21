@@ -7,8 +7,8 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
 # LINE Bot 設定
-LINE_CHANNEL_ACCESS_TOKEN = '你的 Channel access token'
-LINE_CHANNEL_SECRET = '你的 Channel secret'
+LINE_CHANNEL_ACCESS_TOKEN = '2007449341'
+LINE_CHANNEL_SECRET = '285ce770b0c5bed8e8e4c4b392f8a964'
 line_bot_api = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
 handler = WebhookHandler(LINE_CHANNEL_SECRET)
 
